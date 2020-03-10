@@ -15,7 +15,7 @@
     <script type="text/javascript">
 	    $(function(){
 			$("[href]").click(function(){
-				var role=$("#role:checked").val();
+				const role=$("#role:checked").val();
 		       	$.ajax({
 		        url:"user/roleReg",
 		        data:{"role":role},

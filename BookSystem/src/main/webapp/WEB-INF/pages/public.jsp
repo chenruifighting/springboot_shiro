@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css"/>
     <script src="${pageContext.request.contextPath}/js/jquery-3.2.1.js"></script>
     <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
     <style>
@@ -23,7 +23,7 @@
             <ul class="nav navbar-nav navbar-left">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        	图书管理
+                        图书管理
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -34,7 +34,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                       	 	读者管理
+                        读者管理
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -45,7 +45,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        	借还管理
+                        借还管理
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -56,7 +56,7 @@
                 </li>
                 <li >
                     <a href="${pageContext.request.contextPath}/user/repassword">
-                       		 修改密码
+                        修改密码
                     </a>
                 </li>
             </ul>
