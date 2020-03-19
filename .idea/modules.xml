@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActiveMQ/ActiveMQ.iml" filepath="$PROJECT_DIR$/ActiveMQ/ActiveMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookSystem/BookSystem.iml" filepath="$PROJECT_DIR$/BookSystem/BookSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Boot_ActiveMQ_Consumer/Boot_ActiveMQ_Consumer.iml" filepath="$PROJECT_DIR$/Boot_ActiveMQ_Consumer/Boot_ActiveMQ_Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActiveMQ/SpringBoot_ActiveMQ.iml" filepath="$PROJECT_DIR$/ActiveMQ/SpringBoot_ActiveMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_test/code_test.iml" filepath="$PROJECT_DIR$/code_test/code_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_test/demo.iml" filepath="$PROJECT_DIR$/springboot_test/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_public_interface/dubbo_public_interface.iml" filepath="$PROJECT_DIR$/dubbo_public_interface/dubbo_public_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order_service_consumer/order_service_consumer.iml" filepath="$PROJECT_DIR$/order_service_consumer/order_service_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_test/springboot_test.iml" filepath="$PROJECT_DIR$/springboot_test/springboot_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_service_provider/user_service_provider.iml" filepath="$PROJECT_DIR$/user_service_provider/user_service_provider.iml" />
+    </modules>
+  </component>
+</project>

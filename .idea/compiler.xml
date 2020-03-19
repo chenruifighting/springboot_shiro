@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user_service_provider" />
+        <module name="demo" />
+        <module name="order_service_consumer" />
+        <module name="springboot_test" />
+        <module name="dubbo_public_interface" />
+        <module name="SpringBoot_ActiveMQ" />
+        <module name="BookSystem" />
+        <module name="ActiveMQ" />
+        <module name="code_test" />
+        <module name="Boot_ActiveMQ_Consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ActiveMQ" target="1.8" />
+      <module name="BookSystem" target="1.8" />
+      <module name="Boot_ActiveMQ_Consumer" target="1.8" />
+      <module name="Boot_ActiveMQ_Producer" target="1.8" />
+      <module name="code_test" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="dubbo_public_interface" target="1.8" />
+      <module name="dubbo_user_provider" target="1.8" />
+      <module name="MyBlog" target="1.8" />
+      <module name="order_service_consumer" target="1.8" />
+      <module name="SpringBoot_ActiveMQ" target="1.8" />
+      <module name="springboot_demo" target="1.8" />
+      <module name="springboot_test" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="user_service_provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Boot_ActiveMQ_Consumer" options="-parameters" />
+      <module name="Boot_ActiveMQ_Producer" options="-parameters" />
+      <module name="MyBlog" options="-parameters" />
+      <module name="SpringBoot_ActiveMQ" options="-parameters" />
+      <module name="code_test" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="dubbo_public_interface" options="" />
+      <module name="order_service_consumer" options="-parameters" />
+      <module name="springboot_demo" options="-parameters" />
+      <module name="springboot_test" options="-parameters" />
+      <module name="user_service_provider" options="-parameters" />
+    </option>
+  </component>
+</project>
