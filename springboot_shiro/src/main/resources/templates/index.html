@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.thymeleaf.org/thymeleaf-extras-shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <a th:href="@{success}">成功页面</a>
+    <a th:href="@{success1}">成功页面1</a>
+    <div shiro:hasPermission="2">
+        <a th:href="@{success2}">成功页面2</a>
+    </div>
+    <div shiro:hasPermission="3">
+        <a th:href="@{success3}">成功页面3</a>
+    </div>
+    <div th:if="${session.currentUser==null}">
+        <a th:href="@{toLogin}">登录</a>
+    </div>
+    <div th:if="${session.currentUser!=null}">
+        <a th:href="@{logout}">注销</a>
+    </div>
+</body>
+</html>
